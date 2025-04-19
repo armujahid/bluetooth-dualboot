@@ -177,7 +177,7 @@ def display_instructions():
     # Example: 'C1 22 E9 8B 71 DA 90 C9 45 0E EC 40 52 94 DE 49'
 
     sudo chntpw -e /win/Windows/System32/config/SYSTEM
-    cd \\ControlSet001ontrolSet001\\Services\\BTHPORT\\Parameters\\Keys
+    cd \\ControlSet001\\Services\\BTHPORT\\Parameters\\Keys
     ls
     cd <AdapterMAC>  # Replace with your adapter's MAC address
     cd <DeviceMAC>  # Replace with your device's MAC address (e.g., for a mouse or keyboard)
